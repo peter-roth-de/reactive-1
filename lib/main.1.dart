@@ -1,3 +1,7 @@
+/**
+ * main.1.dart
+ * Standard w/o any reactive / redux implementation
+ */
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -13,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Scoped Model Example [1]'),
     );
   }
 }
